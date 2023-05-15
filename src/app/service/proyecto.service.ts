@@ -8,7 +8,7 @@ import { Proyecto } from '../model/proyecto';
 })
 export class ProyectoService {
   [x: string]: any;
-  url = 'https://bankendfinal.onrender.com/proyectos/';
+  url = 'https://backendportafolio-pn1k.onrender.com/proyectos/';
   
 
   constructor(private httpClient:HttpClient) {}
@@ -28,7 +28,7 @@ export class ProyectoService {
   }
 
   public update(id: number, proyecto: Proyecto): Observable<any> {
-    console.log("onupdateyyyyyyyyyyyyyyyyyyy",proyecto);
+    console.log("onupdatey",proyecto);
     return this.httpClient.put<any>(this.url + `update/${id}`, proyecto);
     
   }

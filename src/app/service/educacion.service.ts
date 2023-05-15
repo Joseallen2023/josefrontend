@@ -8,7 +8,7 @@ import { Educacion } from '../model/educacion';
 })
 export class EducacionService {
   [x: string]: any;
-  url = 'https://bankendfinal.onrender.com/educacion/';
+  url = 'https://backendportafolio-pn1k.onrender.com/educacion/';
   
 
   constructor(private httpClient: HttpClient) {}

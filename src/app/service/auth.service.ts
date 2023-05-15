@@ -11,7 +11,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 })
 export class AuthService {
 
-  authURL = 'https://bankendfinal.onrender.com/auth/';
+  authURL = 'https://backendportafolio-pn1k.onrender.com/auth/';
  
 
   constructor(private httpClient: HttpClient) { }
